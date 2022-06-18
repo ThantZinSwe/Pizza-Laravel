@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#code-lab-pizza{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+#code-lab-pizza:hover{
+    transform: scale(1) translateY(-20px);
+}
+
+#card-pizza{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+#card-pizza:hover{
+    transform: scale(1) translateY(-20px);
+}
+
+#search .search-a{
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+#search .search-a:hover{
+    transform: scale(1) translateY(-18px);
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+}
